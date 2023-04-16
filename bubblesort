@@ -1,0 +1,12 @@
+# Bubble Sort Function
+# Wallis
+
+
+def bubble(x):
+    n = len(x)
+    for y in range(n):
+        for z in range(0, n - y - 1):
+            if x[z] > x[z + 1]:
+                x[z], x[z+1] = x[z+1], x[z]
+
+
